@@ -1,3 +1,54 @@
-h1 {
-  text-decoration: underline;
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+/* Navigation menu styling */
+nav {
+  background-color: #111;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Additional styles for specific elements can be added as needed */
+
+button {
+  background-color: #000;
+  color: white;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Arial, sans-serif;
+  font-size: large;
+}
+button:hover {
+  background-color: grey;
 }
